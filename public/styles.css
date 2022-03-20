@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 470px;
+  border: 2px solid;
+  margin: 10px;
+  border-radius: 8px;
+  padding-bottom: 5px;
+}
+
+h4 {
+  padding: 10px;
+  border-bottom: 2px solid;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+p {
+  padding: 10px;
+  border-bottom: 2px solid;
+  margin-bottom: 5px;
+}
+
+#film-des {
+  border-bottom: none;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  display: table;
+  margin: auto;
+}
+
+a{
+    text-decoration: none;
+}
